@@ -46,7 +46,9 @@ public:
     Vehicle();
 
     // Параметризованный сеттер
-    Vehicle(const string& brand, const string& model, int year, double price, const Engine& engine, int mileage);
+    Vehicle(const string& brand, const string& model, int year, double price, const Engine& engine, int mileage); //Бренд машины, модель, год выпуска
+    // ее цена, двигатель и пробег
+
 
     // Копия другого объекта
     Vehicle(const Vehicle& other);
